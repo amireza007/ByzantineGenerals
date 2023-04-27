@@ -1,4 +1,4 @@
-# ByzantineGenerals
+# Byzantine Generals
 A presentation on the Byzantine Generals Problem: Signed messages
 
 ### Outline of the presentation:
