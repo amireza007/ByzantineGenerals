@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Brief history of Lamport's works}{4}{0}{1}
+\beamer@sectionintoc {2}{Origination of Bezyntine Generals problem}{30}{0}{2}
+\beamer@sectionintoc {3}{A review of the Byzantine problem}{35}{0}{3}
+\beamer@sectionintoc {4}{Signed messages}{48}{0}{4}
+\beamer@sectionintoc {5}{Solving consensus in asynchronous and synchronous systems}{62}{0}{5}
