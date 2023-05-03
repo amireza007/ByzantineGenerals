@@ -1,0 +1,80 @@
+\documentclass[../document.tex]{subfiles}
+%\documentclass{beamer}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{graphicx}
+\usepackage{tikz}
+%\usetheme{Singapore}
+\usetheme{Boadilla}
+\usecolortheme{rose}
+
+\usetikzlibrary{tikzmark}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\tikzstyle{every picture}+=[remember picture,baseline]
+\tikzstyle{every node}+=[inner sep=0pt,anchor=base,
+minimum width=1.5cm,align=center,text depth=.25ex,outer sep=1.5pt]
+\tikzstyle{every path}+=[thick, rounded corners]
+%\setframetemplate{frametitle}[default][center]
+
+%%%%%%%%%%%%%%%%%%%% VERY IMPORTANT 
+%very useful way to add notes to Beamer
+%\setbeameroption{show notes on second screen=right}
+\setbeamertemplate{note page} 
+{ 
+	\insertslideintonotes{0.65} 
+	\rule{\textwidth}{0.1pt} 
+	\color{blue} \small
+	\insertnote 
+}
+\begin{document}
+	
+\begin{frame}{A review of the Byzantine problem}
+	\begin{itemize}
+		\item <+-> There is an \textbf{enemy city} and a group of \textbf{General $i$}, each deciding to reach \textbf{an agreed upon plan} (which is the exact definition of \textbf{consensus}) to whether \textit{Attack} or \textit{Retreat}
+		\item <+-> and each general $i$ is equipped with a messaging method for sending value $v(i)(\in \{\text{Attack, Retreat}\})$ for communicating with each other
+		\item <+-> AND there are a \large bunch of \textbf{traitorous generals} \normalsize sending \textbf{conflicting} messages, aim to prevent \textbf{loyal generals to reach a plan}
+		\item <+-> In fact, they send \textbf{arbitrary messages} to other generals.
+		\item <+-> In order for them to a reach consensus, two conditions must be satisfied:
+		\begin{enumerate}
+			\item <+-> Every loyal general must obtain the same information $v(1), v(2) \dots, v(n)$
+			\item <.-> The value sent by a loyal general should be used by all loyal generals
+		\end{enumerate}
+	\end{itemize} 
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{A review of the Byzantine problem}
+
+\end{frame}
+
+\begin{frame}{A review of the Byzantine problem \textit{cont.}}
+	\uncover <+->{How should the generals send their messages?\newline}
+	\uncover<+-> {Let's examine how \textbf{a single general $i$ should send the message $v(i)$} that is formally defined by:}
+	\alt <+>{\textit{why??}}{}
+	\uncover<+->{\small(which is made by grouping generals into two groups, namely \textbf{commander and lieutenant generals})}
+	\uncover <.->{\begin{definition} [Byzantine Generals Problem]
+			A \textbf{commanding general} must send an order to his \textbf{$n-1$ lieutenant generals} s.t.:\newline
+			IC1. All loyal lieutenants obey the same order.\newline
+			IC2. If the commanding general is loyal, then every loyal lieutenant obeys the order he sends.
+	\end{definition}}
+	\uncover<+->{\small Note that IC2 $\implies$ IC1\newline}
+	\uncover<+> {\textbf{*} Also note that,E.g. when \underline{General $n$} sends \underline{$v(n)$  lieutenant $n-1$} retrieves a message from \underline{$n-2$ generals} and then apply a function $Majority(v(1),v(2),\dots,v(n-2))$ and adds $v(n)$ to the list $V_1$} 
+\end{frame}
+
+%%%%%%%%%%%%
+
+\begin{frame}{A review of the Byzantine problem \textit{cont.}}
+	\uncover<+->{Lamport gave a recursive algorithm based on \textbf{majority function} for the mentioned problem in case of having \textbf{oral messages} whose content is solely managed by the sender.}
+	\uncover<+->{\newline \newline Unfortunately, the algorithm there are two problems concerning this algorithm: }
+		\begin{enumerate}
+			\item \textbf{It is expensive $\rightarrow O(n!)$}
+			\item It only works only, in case of having $m$ traitors, for $n\ge 3m+1$ generals \newline
+		\end{enumerate}
+	
+	\uncover<+->{\begin{center}
+			In order to deal with problem 2, he proposed an algorithm based on \textbf{unforgeable messages.}
+	\end{center}}
+\end{frame}
+\end{document}

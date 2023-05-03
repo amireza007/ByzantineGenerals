@@ -6,4 +6,4 @@ A presentation on the Byzantine Generals Problem: Signed messages
 - Origination of Byzantine Generals problem
 - A review of the Byzantine problem
 - Adding Signed messages to make them unforgeable
-- Solving consensus in asynchronous and synchronous systems
+- Practical Byzantine-fault tolerance

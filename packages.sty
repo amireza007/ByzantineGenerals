@@ -1,0 +1,30 @@
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+%\usetheme{Singapore}
+\usetheme{Boadilla}
+\usecolortheme{rose}
+
+\usetikzlibrary{tikzmark}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\tikzstyle{every picture}+=[remember picture,baseline]
+\tikzstyle{every node}+=[inner sep=0pt,anchor=base,
+minimum width=1.5cm,align=center,text depth=.25ex,outer sep=1.5pt]
+\tikzstyle{every path}+=[thick, rounded corners]
+\usepackage{subfiles}
+%\setframetemplate{frametitle}[default][center]
+
+%%%%%%%%%%%%%%%%%%%% VERY IMPORTANT 
+%very useful way to add notes to Beamer
+\setbeameroption{show notes on second screen=right}
+\setbeamertemplate{note page} 
+{ 
+	\insertslideintonotes{0.65} 
+	\rule{\textwidth}{0.1pt} 
+	\color{blue} \small
+	\insertnote 
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

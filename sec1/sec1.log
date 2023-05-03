@@ -1,12 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.7)  3 MAY 2023 17:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.7)  1 MAY 2023 05:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**document.tex
-(./document.tex
+**sec1.tex
+(./sec1.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
-(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
+(/usr/local/texlive/2022/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
+Preamble taken from file `./document.tex'
+(/usr/local/texlive/2022/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+)
+(./document.tex (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/09/13 v3.68 A class for typesetting presentations
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -866,33 +872,10 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count350
 \AM@templatesizebox=\box85
 )
-\c@saveenumi=\count351
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
-)
-\g_MT_multlinerow_int=\count352
-\l_MT_multwidth_dim=\dimen320
-\origjot=\skip71
-\l_MT_shortvdotswithinadjustabove_dim=\dimen321
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen322
-\l_MT_above_intertext_sep=\dimen323
-\l_MT_below_intertext_sep=\dimen324
-\l_MT_above_shortintertext_sep=\dimen325
-\l_MT_below_shortintertext_sep=\dimen326
-\xmathstrut@box=\box86
-\xmathstrut@dim=\dimen327
-)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/import/import.sty
-Package: import 2020/04/01  v 6.2
-))
-(./document.aux
+)))
+(./sec1.aux
 
 LaTeX Warning: Label `works<1>' multiply defined.
 
@@ -900,26 +883,26 @@ LaTeX Warning: Label `works<1>' multiply defined.
 LaTeX Warning: Label `works' multiply defined.
 
 )
-\openout1 = `document.aux'.
+\openout1 = `sec1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -957,16 +940,16 @@ LaTeX Font Info:    ... okay on input line 43.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count353
-\scratchdimen=\dimen328
-\scratchbox=\box87
-\nofMPsegments=\count354
-\nofMParguments=\count355
+\scratchcounter=\count351
+\scratchdimen=\dimen320
+\scratchbox=\box86
+\nofMPsegments=\count352
+\nofMParguments=\count353
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count356
-\MPscratchDim=\dimen329
-\MPnumerator=\count357
-\makeMPintoPDFobject=\count358
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen321
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
 \everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -977,64 +960,64 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 31.
 
-(./document.out) (./document.out)
+(./sec1.out) (./sec1.out)
 \@outlinefile=\write5
-\openout5 = `document.out'.
+\openout5 = `sec1.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 43.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 43.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 43.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 43.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 43.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 43.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 43.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 43.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 43.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 43.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 43.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-3.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 4
-3.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 43.
+ut line 31.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1072,24 +1055,15 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-(./document.nav) [1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-] (./document.toc) [3
-
-] (./document.toc) [4
-
-] (./sec1/sec1.tex
-<lam.jpg, id=89, 295.85532pt x 376.40625pt>
+(./sec1.nav)
+<lam.jpg, id=14, 295.85532pt x 376.40625pt>
 File: lam.jpg Graphic file (type jpg)
 <use lam.jpg>
 Package pdftex.def Info: lam.jpg  used on input line 43.
 (pdftex.def)             Requested size: 82.15274pt x 104.52pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
@@ -1104,26 +1078,66 @@ ut line 43.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [5
+) [1
 
- <./lam.jpg>]
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./lam.j
+pg>]
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./sec1//../myfig1.pdf): PDF 
-inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./sec1//../myfig1.pdf, id=101, 120.45pt x 147.67169pt>
-File: ./sec1//../myfig1.pdf Graphic file (type pdf)
-<use ./sec1//../myfig1.pdf>
-Package pdftex.def Info: ./sec1//../myfig1.pdf  used on input line 59.
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./myfig1.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<myfig1.pdf, id=53, 120.45pt x 147.67169pt>
+File: myfig1.pdf Graphic file (type pdf)
+<use myfig1.pdf>
+Package pdftex.def Info: myfig1.pdf  used on input line 59.
 (pdftex.def)             Requested size: 102.68962pt x 125.90007pt.
-[6
+[2
 
- <./sec1//../myfig1.pdf>] [7
+ <./myfig1.pdf>]
+File: myfig1.pdf Graphic file (type pdf)
+<use myfig1.pdf>
+Package pdftex.def Info: myfig1.pdf  used on input line 59.
+(pdftex.def)             Requested size: 102.68962pt x 125.90007pt.
+ [3
+
+]
+File: myfig1.pdf Graphic file (type pdf)
+<use myfig1.pdf>
+Package pdftex.def Info: myfig1.pdf  used on input line 59.
+(pdftex.def)             Requested size: 102.68962pt x 125.90007pt.
+ [4
+
+]
+File: myfig1.pdf Graphic file (type pdf)
+<use myfig1.pdf>
+Package pdftex.def Info: myfig1.pdf  used on input line 59.
+(pdftex.def)             Requested size: 102.68962pt x 125.90007pt.
+ [5
+
+]
+File: myfig1.pdf Graphic file (type pdf)
+<use myfig1.pdf>
+Package pdftex.def Info: myfig1.pdf  used on input line 59.
+(pdftex.def)             Requested size: 102.68962pt x 125.90007pt.
+ [6
+
+] [7
 
 ] [8
 
 ] [9
 
 ] [10
+
+] [11
+
+] [12
+
+] [13
+
+] [14
+
+]
+[15
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{works<1>}) ha
@@ -1137,155 +1151,69 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.113 \end{frame}
-                  [11
+                  [16
 
-] [12
+] [17
 
-]) (./document.toc) [13
-
-] (./sec2/sec2.tex [14
-
-]
-<./sec2//../myfig2.png, id=237, 1332.98pt x 1232.605pt>
-File: ./sec2//../myfig2.png Graphic file (type png)
-<use ./sec2//../myfig2.png>
-Package pdftex.def Info: ./sec2//../myfig2.png  used on input line 51.
-(pdftex.def)             Requested size: 205.37926pt x 189.90451pt.
-
-[15
-
- <./sec2//../myfig2.png>]) (./document.toc) [16
-
-] (./sec3/sec3.tex [17
-
-]
-[18
+] [18
 
 ] [19
 
 ] [20
 
-]) (./document.toc) [21
+] [21
 
-] (./sec4/sec4.tex
-<./sec4//../fig1.png, id=306, 766.865pt x 778.91pt>
-File: ./sec4//../fig1.png Graphic file (type png)
-<use ./sec4//../fig1.png>
-Package pdftex.def Info: ./sec4//../fig1.png  used on input line 46.
-(pdftex.def)             Requested size: 136.91603pt x 139.05676pt.
- [22
+] [22
 
- <./sec4//../fig1.png>] [23
+] [23
 
 ] [24
 
 ] [25
 
 ]
-\openout4 = `document.vrb'.
-
- (./document.vrb) [26
-
-]
-<./sec4//../fig3.png, id=342, 927.465pt x 746.79pt>
-File: ./sec4//../fig3.png Graphic file (type png)
-<use ./sec4//../fig3.png>
-Package pdftex.def Info: ./sec4//../fig3.png  used on input line 116.
-(pdftex.def)             Requested size: 273.83728pt x 220.49484pt.
- [27
-
- <./sec4//../fig3.png>] [28
-
-])
-(./document.toc) [29
-
-] (./sec5/sec5.tex [30
-
-] [31
-
-] [32
-
-] [33
-
-]
-<./sec5//../fig4.png, id=431, 1168.365pt x 1120.185pt>
-File: ./sec5//../fig4.png Graphic file (type png)
-<use ./sec5//../fig4.png>
-Package pdftex.def Info: ./sec5//../fig4.png  used on input line 107.
-(pdftex.def)             Requested size: 205.37926pt x 196.90703pt.
- [34
-
- <./sec5//../fig4.png>] [35
-
-] [36
-
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-]) (./document.toc) [41
-
-] [42
-
-] [43
-
- </usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamericonarticle.pdf> </
-usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamericonbook.pdf>] [44
-
-] [45
-
-]
 \tf@nav=\write6
-\openout6 = `document.nav'.
+\openout6 = `sec1.nav'.
 
 \tf@toc=\write7
-\openout7 = `document.toc'.
+\openout7 = `sec1.toc'.
 
 \tf@snm=\write8
-\openout8 = `document.snm'.
+\openout8 = `sec1.snm'.
 
-
-(./document.aux)
+ (./sec1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 34DA13DC2ED20D920A7D8E0CE9CA7034;1169.
+Package rerunfilecheck Info: File `sec1.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27557 strings out of 476093
- 556934 string characters out of 5791586
+ 26527 strings out of 476093
+ 537058 string characters out of 5791586
  1863793 words of memory out of 5000000
- 47195 multiletter control sequences out of 15000+600000
- 532228 words of font info for 102 fonts, out of 8000000 for 9000
+ 46278 multiletter control sequences out of 15000+600000
+ 527927 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,615b,1101s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on document.pdf (45 pages, 553146 bytes).
+ 148i,15n,139p,502b,858s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on sec1.pdf (25 pages, 287438 bytes).
 PDF statistics:
- 646 PDF objects out of 1000 (max. 8388607)
- 477 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
- 403 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 848 PDF objects out of 1000 (max. 8388607)
+ 741 compressed objects within 8 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 

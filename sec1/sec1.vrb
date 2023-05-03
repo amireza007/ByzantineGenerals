@@ -1,0 +1,11 @@
+\frametitle{Formal statement of Signed messages }
+Initially $V_i=\emptyset$\\
+(1) The commander signs and sends message $v:0$ to all lieutenants\\
+(2) For each $i$:\\
+\quad(A) If Lieutenant $i$ receives a message of the form $v:0$ from the commander and he hasn't receieved any order, then:\\
+\quad \quad(i) he lets $V_i={v}$\\
+\quad \quad (ii) he sends the message $v:0:i$ to every other lieutenant.\newline \newline
+\quad (B) If Lieutenant $i$ receives a message of the form $v:0:j_1\dots:j_k$ \textbf{and} $v\notin V_i$ then:\\
+\quad \quad(i) he adds $v$ to $V_i$;\\
+\quad \quad (ii) if $k<m$, then he sends the message $v:0:j_1\dots:j_k:i$ to every lieutenant other than $j_1,\dots,j_k$\newline \newline
+(3) For each $i$: When Lieutenant i will receive no more messages, he obeys the order $Choice(V_i)$
