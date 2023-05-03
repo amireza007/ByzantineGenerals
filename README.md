@@ -1,5 +1,5 @@
 # Byzantine Generals
-A presentation on the Byzantine Generals Problem (majorly signed messages) and some other topics regardin distributed systems.
+A presentation on the Byzantine Generals Problem (majorly signed messages) and some other topics regarding distributed systems.
 
 ### Outline of the presentation:
 - A Brief history of Lamport's works
